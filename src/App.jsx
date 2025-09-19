@@ -11,10 +11,9 @@ import {TasksContext} from './contexts/TasksContext'
 function App() {
     const [tasks ,setTasks] = useState([]);
     const [currentTasks , setCurrentTasks] = useState([]);
-    const [filter, setFilter] = useState('all'); 
     
   return (
-    <TasksContext.Provider value={{tasks,setTasks,currentTasks,setCurrentTasks,filter,setFilter}} >
+    <TasksContext.Provider value={{tasks,setTasks,currentTasks,setCurrentTasks}} >
       <div style={{ margin: '20px auto'}}>
         <Routes>
           <Route index element={<MyTasks />} />
