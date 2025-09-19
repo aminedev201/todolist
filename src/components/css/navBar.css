@@ -1,0 +1,14 @@
+.bg-red {
+    background-color: #ff0000;
+} 
+.bg-green {
+    background-color: #00ff26;
+} 
+
+.color-white {
+    color: white;
+} 
+
+.p-20 {
+    padding: 20px;
+}

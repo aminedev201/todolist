@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+.full-w  {
+  width: 100%;
+}
+
+.bg-white {
+  background-color: rgb(241, 240, 240);
+
+}
+
+.position-fixed {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  z-index: 99999;
+} 
+
+.overlay-dark::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #63666a6c;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+} 
+
+.p-4 {
+  padding: 40px;
+
+} 
+.border-radius-6 {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+} 
+
+.w-50 {
+  width: 50%;
+}
+.w-25 {
+  width: 25%;
+}
+
+.font-size-20 {
+  font-size: 30px;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+
+.text-success {
+  color: rgb(24, 126, 51);
+}
+.text-danger {
+  color: rgb(126, 24, 53);
+}
